@@ -6,15 +6,14 @@ $sidebarButton = new SidebarButton();
 
 ?>
 
-<aside class="bg-[#D9D9D9] h-screen flex flex-col">
+<aside class="bg-[#D9D9D9] h-screen flex flex-col fixed top-0 left-0 ">
     <!-- PROFILE BOX -->
     <section class="flex items-center rounded-sm">
         <figure class="bg-[#2862C6]">
             <div class="flex gap-3 text-xs bg-[#D9D9D9] p-2 rounded-br-xl">
-                <img src="images/image.png" alt="profile" class="w-12 h-12 rounded-full object-cover" />
-                <span>
+                <img src="images/image.png" alt="profile" class="size-12 rounded-full object-cover" />
+                <span class="flex flex-col gap-2 w-44">
                     <p class="truncate">Muhammad Erril Putra Pratidina</p>
-                    <br />
                     <p>2341720183</p>
                 </span>
             </div>

@@ -15,7 +15,7 @@
     <?php include "sidebar.php"; ?>
 
     <!-- MAIN CONTENT -->
-    <main class="bg-white flex-1 m-8 rounded-xl p-8 flex flex-col gap-8">
+    <main class="bg-white flex-1 m-8 rounded-xl p-8 flex flex-col gap-8 ml-[340px]">
       <h1 class="text-3xl font-bold">Selamat Datang di SARIS</h1>
       <section class="flex flex-row w-full gap-[90px] ml-10 items-center">
         <div class="relative inline-block">
