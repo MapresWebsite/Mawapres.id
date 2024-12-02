@@ -33,7 +33,7 @@ $sidebarButton = new SidebarButton();
             &ensp;
             <h5 class="mr-3">Beranda</h5>
         </div>
-        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass(['/src/frontend/submisi.php','/src/frontend/submisi-2.php','/src/frontend/submisi-3.php','/src/frontend/submisi-4.php']); ?>">
+        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass(['/src/frontend/submisi.php', '/src/frontend/submisi-2.php', '/src/frontend/submisi-3.php', '/src/frontend/submisi-4.php']); ?>">
             <span class="material-symbols-outlined"> cloud_upload </span>
             &ensp;
             <h5 class="mr-3">Submisi</h5>
@@ -42,6 +42,12 @@ $sidebarButton = new SidebarButton();
             <span class="material-symbols-outlined"> history </span>
             &ensp;
             <h5 class="mr-3">Riwayat</h5>
+        </div>
+        <div class="mt-72 flex justify-center text-white items-center gap-1">
+            <span class="material-symbols-outlined">
+                logout
+            </span>
+            <p>Keluar</p>
         </div>
     </section>
 </aside>
