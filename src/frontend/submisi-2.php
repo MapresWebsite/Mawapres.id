@@ -12,6 +12,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
         rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
 </head>
 
 <body class="bg-[#D9D9D9] font-sans">
@@ -33,7 +37,34 @@
                             1
                         </td>
                         <td class="bg-gray-200 rounded p-3">
+                            <select class="w-full select2" style="width: 100%;">
+                                <!-- Opsi untuk nama mahasiswa -->
+                                <option value="Jono">Jono</option>'
+                                <option value="Joni">Joni</option>'
+                                <option value="Jini">Jini</option>'
+                            </select>
+                        </td>
+                        <td class="bg-gray-200 rounded p-3">
                             <select class="w-full">
+                                <option value="Ketua">Ketua</option>
+                                <option value="Anggota">Anggota</option>
+                            </select>
+
+                        </td>
+                        <td class="flex justify-center bg-gray-200 rounded py-3">
+                            <button class="flex rounded-md  w-fit text-white bg-red-400">
+                                <span class="material-symbols-outlined">
+                                    delete
+                                </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center bg-gray-200 rounded py-3">
+                            2
+                        </td>
+                        <td class="bg-gray-200 rounded p-3">
+                            <select class="w-full select2" style="width: 100%;">
                                 <!-- Opsi untuk nama mahasiswa -->
                                 <option value="Jono">Jono</option>'
                                 <option value="Joni">Joni</option>'
