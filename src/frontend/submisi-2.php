@@ -25,72 +25,16 @@
             Data Submisi > Data Mahasiswa</h4>
         <main class="bg-white flex-1 m-8 rounded-xl p-8 flex flex-col justify-between ml-[340px] min-h-[560px]">
             <span class="flex flex-col gap-8">
-                <table class="border-separate border-spacing-1">
+                <table id="dynamicTable" class="border-separate border-spacing-1">
                     <tr>
                         <th class="bg-gray-400 rounded">No</th>
                         <th class="bg-gray-400 rounded">Nama Mahasiswa</th>
                         <th class="bg-gray-400 rounded">Peran Perlombaan</th>
                         <th class="bg-gray-400 rounded">Aksi</th>
                     </tr>
-                    <tr>
-                        <td class="text-center bg-gray-200 rounded py-3">
-                            1
-                        </td>
-                        <td class="bg-gray-200 rounded p-3">
-                            <select class="w-full select2" style="width: 100%;">
-                                <!-- Opsi untuk nama mahasiswa -->
-                                <option value="Jono">Jono</option>'
-                                <option value="Joni">Joni</option>'
-                                <option value="Jini">Jini</option>'
-                            </select>
-                        </td>
-                        <td class="bg-gray-200 rounded p-3">
-                            <select class="w-full">
-                                <option value="Ketua">Ketua</option>
-                                <option value="Anggota">Anggota</option>
-                            </select>
-
-                        </td>
-                        <td class="flex justify-center bg-gray-200 rounded py-3">
-                            <button class="flex rounded-md  w-fit text-white bg-red-400">
-                                <span class="material-symbols-outlined">
-                                    delete
-                                </span>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center bg-gray-200 rounded py-3">
-                            2
-                        </td>
-                        <td class="bg-gray-200 rounded p-3">
-                            <select class="w-full select2" style="width: 100%;">
-                                <!-- Opsi untuk nama mahasiswa -->
-                                <option value="Jono">Jono</option>'
-                                <option value="Joni">Joni</option>'
-                                <option value="Jini">Jini</option>'
-                            </select>
-                        </td>
-                        <td class="bg-gray-200 rounded p-3">
-                            <select class="w-full">
-                                <!-- Opsi untuk peran perlombaan -->
-                                <option value="Ketua">Ketua</option>
-                                <option value="Anggota">Anggota</option>
-                            </select>
-                        </td>
-                        <td class="flex justify-center bg-gray-200 rounded py-3">
-                            <button class="flex rounded-md  w-fit text-white bg-red-400">
-                                <span class="material-symbols-outlined">
-                                    delete
-                                </span>
-                            </button>
-                        </td>
-                    </tr>
                 </table>
-                <button class="bg-[#31E266] text-white p-3 w-fit rounded-md flex">
-                    <span class="material-symbols-outlined">
-                        add
-                    </span>
+                <button id="addRowBtn" class="bg-[#31E266] text-white p-3 w-fit rounded-md flex">
+                    <span class="material-symbols-outlined">add</span>
                 </button>
             </span>
             <span class="flex flex-row-reverse relative gap-3">
