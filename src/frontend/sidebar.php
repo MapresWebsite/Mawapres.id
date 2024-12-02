@@ -33,7 +33,7 @@ $sidebarButton = new SidebarButton();
             &ensp;
             <h5 class="mr-3">Beranda</h5>
         </div>
-        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass('/src/frontend/submisi.php'); ?>">
+        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass(['/src/frontend/submisi.php','/src/frontend/submisi-2.php','/src/frontend/submisi-3.php','/src/frontend/submisi-4.php']); ?>">
             <span class="material-symbols-outlined"> cloud_upload </span>
             &ensp;
             <h5 class="mr-3">Submisi</h5>

@@ -97,6 +97,10 @@
   .show {
     display: block;
   }
+
+  .custom-file-input {
+    color: white; /* Ubah warna teks */
+  }
 }
 
 @media screen and (max-width: 324px) {

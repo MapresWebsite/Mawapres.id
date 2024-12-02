@@ -1,3 +1,25 @@
+<?php
+$fileUploadBoxes = [
+    [
+        'title' => 'File Surat Tugas',
+        'description' => 'Surat tugas dari kompetisi yang diikuti.'
+    ],
+    [
+        'title' => 'File Proposal Kompetisi',
+        'description' => 'Proposal yang diajukan untuk mengikuti kompetisi.'
+    ],
+    [
+        'title' => 'Foto Kegiatan',
+        'description' => 'Foto dokumentasi kegiatan saat kompetisi.'
+    ],
+    [
+        'title' => 'File Poster',
+        'description' => 'Poster dari kompetisi yang diikuti.'
+    ]
+];
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -22,32 +44,25 @@
             Data Submisi > Data File</h4>
         <main class="bg-white flex-1 m-8 rounded-xl p-8 flex flex-col justify-between ml-[340px] min-h-[560px]">
             <span class="flex flex-wrap p-16 justify-between gap-y-20">
-                <div class="flex flex-col items-center justify-between bg-white [box-shadow:0em_0.3em_0.3em#bcbcbc] rounded-2xl h-80 w-96">
-                    <section class="flex flex-col items-center p-2">
-                        <h1 class="font-semibold text-2xl">File Surat Tugas</h1>
-                        <p class="text-base text-gray-500">Halo guys</p>
-                        <img src="images/image_placeholder.png" alt="placeholder" class="size-56 object-cover">
-                    </section>
-                    <section class="w-full bg-[#2862C6] rounded-b-2xl flex justify-center">
-                        <input type="file">
-                        <!-- <p>Ukuran max 5.000 kb</p> -->
-                    </section>
-                </div>
-                <div class="flex flex-col items-center bg-white [box-shadow:0em_0.3em_0.3em#bcbcbc] rounded-lg p-2 h-80 w-96">
-                    <h1 class="font-semibold text-2xl">File Surat Tugas</h1>
-                    <p class="text-base text-gray-500">Halo guys</p>
-                    <img src="images/image_placeholder.png" alt="placeholder" class="size-56 object-cover">
-                </div>
-                <div class="flex flex-col items-center bg-white [box-shadow:0em_0.3em_0.3em#bcbcbc] rounded-lg p-2 h-80 w-96">
-                    <h1 class="font-semibold text-2xl">File Surat Tugas</h1>
-                    <p class="text-base text-gray-500">Halo guys</p>
-                    <img src="images/image_placeholder.png" alt="placeholder" class="size-56 object-cover">
-                </div>
-                
+                <!-- BOX TEMPAT UPLOAD FILE -->
+                <?php foreach ($fileUploadBoxes as $box): ?>
+                    <div class="flex flex-col items-center justify-between bg-white [box-shadow:0em_0.3em_0.3em#bcbcbc] rounded-2xl w-96">
+                        <section class="flex flex-col items-center p-2">
+                            <h1 class="font-semibold text-2xl"><?php echo $box['title']; ?></h1>
+                            <p class="text-base text-gray-500"><?php echo $box['description']; ?></p>
+                            <img src="images/image_placeholder.png" alt="placeholder" class="size-56 object-cover">
+                        </section>
+                        <section class="w-full bg-[#2862C6] rounded-b-2xl flex justify-between px-4 py-2">
+                            <input type="file" class="custom-file-input">
+                            <p class="text-xs text-white">Ukuran max 5 MB</p>
+                        </section>
+                    </div>
+                <?php endforeach; ?>
+
             </span>
             <span class="flex flex-row-reverse relative gap-3">
                 <button class="flex rounded-md  w-fit p-3 text-white bg-[#31E266] [box-shadow:0em_0.3em_0.3em#bcbcbc]">
-                    <p>LANJUT</p>
+                    <p>KIRIM</p>
                     <span class="material-symbols-outlined">
                         arrow_forward
                     </span>
