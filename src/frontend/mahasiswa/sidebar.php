@@ -6,7 +6,7 @@ $sidebarButton = new SidebarButton();
 
 ?>
 
-<aside class="bg-[#D9D9D9] h-screen flex flex-col fixed top-0 left-0 ">
+<aside class="bg-[#D9D9D9] h-screen flex flex-col fixed top-0 left-0  ">
     <!-- PROFILE BOX -->
     <section class="flex items-center rounded-sm">
         <figure class="bg-[#2862C6]">
@@ -28,17 +28,17 @@ $sidebarButton = new SidebarButton();
     <!-- MENU STUFF -->
     <section class="flex flex-col px-2 py-2 rounded-tl-xl bg-[#2862C6] flex-1">
         <!-- NAVIGATION ELEMENTS -->
-        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass('/src/frontend/index.php'); ?>">
+        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass(['/src/frontend/mahasiswa/index.php']); ?>">
             <span class="material-symbols-outlined"> home </span>
             &ensp;
             <h5 class="mr-3">Beranda</h5>
         </div>
-        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass(['/src/frontend/submisi.php', '/src/frontend/submisi-2.php', '/src/frontend/submisi-3.php', '/src/frontend/submisi-4.php']); ?>">
+        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass(['/src/frontend/mahasiswa/submisi.php', '/src/frontend/mahasiswa/submisi-2.php', '/src/frontend/mahasiswa/submisi-3.php', '/src/frontend/mahasiswa/submisi-4.php']); ?>">
             <span class="material-symbols-outlined"> cloud_upload </span>
             &ensp;
             <h5 class="mr-3">Submisi</h5>
         </div>
-        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass('/riwayat.php'); ?>">
+        <div class="flex p-3 rounded-lg <?php echo $sidebarButton->getClass(['/src/frontend/mahasiswa/history.php']); ?>">
             <span class="material-symbols-outlined"> history </span>
             &ensp;
             <h5 class="mr-3">Riwayat</h5>
