@@ -21,7 +21,7 @@
         <div class="relative inline-block">
           <!-- Foto Profil -->
           <img
-            src="images/image.png"
+            src="../images/image.png"
             alt="profile"
             class="w-64 h-64 object-cover rounded-2xl"
           />
@@ -53,6 +53,6 @@
     </main>
 
     <!-- External JS -->
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
