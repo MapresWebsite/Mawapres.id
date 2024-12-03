@@ -21,7 +21,7 @@
     <main class="relative z-10 flex items-center justify-center min-h-screen">
         <section class="bg-[#2862C6] p-8 rounded-lg shadow-lg relative">
             <!-- Gambar tekstur di atas background warna biru -->
-            <div class="absolute inset-0 bg-cover bg-center opacity-[0.06]" style="background-image: url('images/pola.jpg');"></div>
+            <div class="absolute inset-0 bg-cover bg-center opacity-[0.06]" style="background-image: url('../images/pola.jpg');"></div>
 
             <form action="" class="flex flex-col items-center p-4 gap-1 w-96 relative z-10">
                 <span class="flex flex-col items-center">
@@ -48,8 +48,8 @@
 
     </main>
     <figure class="absolute top-0 left-0 w-screen h-screen">
-        <img src="images/grapol.jpg" alt="Gambar 1" class="absolute inset-0 w-full h-full object-cover opacity-50">
-        <img src="images/glass.jpg" alt="Gambar 2" class="absolute inset-0 w-full h-full object-cover opacity-25">
+        <img src="../images/grapol.jpg" alt="Gambar 1" class="absolute inset-0 w-full h-full object-cover opacity-50">
+        <img src="../images/glass.jpg" alt="Gambar 2" class="absolute inset-0 w-full h-full object-cover opacity-25">
         <div class="bg-gradient-to-tr from-[#2337EB] to-[#1278DE] absolute inset-0 w-full h-full opacity-20"></div>
     </figure>
     <script src="scripts/hide_pass.js" async defer></script>

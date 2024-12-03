@@ -53,7 +53,7 @@
         </main>
     </section>
 
-    <script src="script.js" async defer></script>
+    <script src="../scripts/script.js" async defer></script>
 </body>
 
 </html>

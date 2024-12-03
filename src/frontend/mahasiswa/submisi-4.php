@@ -50,7 +50,7 @@ $fileUploadBoxes = [
                         <section class="flex flex-col items-center p-2">
                             <h1 class="font-semibold text-2xl"><?php echo $box['title']; ?></h1>
                             <p class="text-base text-gray-500"><?php echo $box['description']; ?></p>
-                            <img src="images/image_placeholder.png" alt="placeholder" class="size-56 object-cover">
+                            <img src="../images/image_placeholder.png" alt="placeholder" class="size-56 object-cover">
                         </section>
                         <section class="w-full bg-[#2862C6] rounded-b-2xl flex justify-between px-4 py-2">
                             <input type="file" class="custom-file-input">
@@ -85,8 +85,8 @@ $fileUploadBoxes = [
         </main>
     </section>
 
-    <script src="script.js" async defer></script>
-    <script src="scripts/submission_confirmation.js" async_defer></script>
+    <script src="../scripts/script.js" async defer></script>
+    <script src="../scripts/submission_confirmation.js" async_defer></script>
 </body>
 
 </html>
