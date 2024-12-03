@@ -31,34 +31,32 @@
                         <th class="bg-gray-400 rounded">Prestasi</th>
                         <th class="bg-gray-400 rounded">Status</th>
                     </tr>
-                    <tr>
-                        <td class="text-center">
+                    <tr class="">
+                        <td class="text-center flex-1 bg-gray-200 rounded">
                             1
                         </td>
                         <td>
-                            <span class="bg-gray-300">
-
-                            </span>
+                            <section class="flex flex-1 bg-gray-200 rounded hover:bg-slate-400">
+                                <img src="../images/image_placeholder.png" alt="" class="size-48 object-cover">
+                                <span class="flex flex-col gap-2 justify-center">
+                                    <h4 class="font-bold text-2xl">Nama Kompetisi</h4>
+                                    <h5 class="font-medium text-xl">Penyelenggara</h5>
+                                    <p>1 Sep 2027</p>
+                                </span>
+                            </section>
                         </td>
-                        <td>
-
+                        <td class="text-center bg-gray-200 rounded text-gray-500">
+                            <section class="flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined">
+                                    do_not_disturb_on
+                                </span>
+                                Proses
+                            </section>
                         </td>
+
                     </tr>
                 </table>
             </span>
-            <span class="flex flex-row-reverse relative gap-3">
-                <button class="flex rounded-md  w-fit p-3 text-white bg-[#31E266] [box-shadow:0em_0.3em_0.3em#bcbcbc]">
-                    <p>LANJUT</p>
-                    <span class="material-symbols-outlined">
-                        arrow_forward
-                    </span>
-                </button>
-                <button class="flex rounded-md  w-fit p-3 text-white bg-gray-400 [box-shadow:0em_0.3em_0.3em#bcbcbc]">
-                    <p>KEMBALI</p>
-
-                </button>
-            </span>
-
         </main>
     </section>
 
