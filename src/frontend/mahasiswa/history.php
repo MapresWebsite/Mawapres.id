@@ -31,30 +31,8 @@
                         <th class="bg-gray-400 rounded">Prestasi</th>
                         <th class="bg-gray-400 rounded">Status</th>
                     </tr>
-                    <tr class="">
-                        <td class="text-center flex-1 bg-gray-200 rounded">
-                            1
-                        </td>
-                        <td>
-                            <section class="flex flex-1 bg-gray-200 rounded hover:bg-slate-400">
-                                <img src="../images/image_placeholder.png" alt="" class="size-48 object-cover">
-                                <span class="flex flex-col gap-2 justify-center">
-                                    <h4 class="font-bold text-2xl">Nama Kompetisi</h4>
-                                    <h5 class="font-medium text-xl">Penyelenggara</h5>
-                                    <p>1 Sep 2027</p>
-                                </span>
-                            </section>
-                        </td>
-                        <td class="text-center bg-gray-200 rounded text-gray-500">
-                            <section class="flex items-center justify-center gap-1">
-                                <span class="material-symbols-outlined">
-                                    do_not_disturb_on
-                                </span>
-                                Proses
-                            </section>
-                        </td>
-
-                    </tr>
+                    <!-- include row template -->
+                    <?php include "template/history_module_template.php"?>
                 </table>
             </span>
         </main>
