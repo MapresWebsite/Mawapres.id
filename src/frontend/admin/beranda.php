@@ -12,7 +12,7 @@
     />
   </head>
   <body class="bg-[#D9D9D9] font-sans flex flex-row">
-    <?php include "sidebar.php"; ?>
+    <!-- <?php include "sidebar.php"; ?> -->
 
     <!-- MAIN CONTENT -->
     <main class="bg-white flex-1 m-8 rounded-xl p-8 flex flex-col gap-8 ml-[340px]">
